@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    networks:
+      - common_network
+
+networks:
+  common_network:
+    external: true
