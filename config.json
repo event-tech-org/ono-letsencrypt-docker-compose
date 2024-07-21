@@ -1,6 +1,14 @@
 {
   "domains": [
     {
+      "domain": "goprimetechnologies.com",
+      "email": "info@goprimetechnologies.com",
+      "wwwSubdomain": false,
+      "testCert": false,
+      "rsaKeySize": 4096,
+      "requestHandler": "staticContent"
+    },
+    {
       "domain": "events-qa.goprimetechnologies.com",
       "email": "info@goprimetechnologies.com",
       "wwwSubdomain": false,
