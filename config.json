@@ -1,0 +1,28 @@
+{
+  "domains": [
+    {
+      "domain": "events-qa.goprimetechnologies.com",
+      "email": "info@goprimetechnologies.com",
+      "wwwSubdomain": false,
+      "testCert": false,
+      "rsaKeySize": 4096,
+      "requestHandler": "reverseProxy",
+      "upstream": "opev-frontend:4200",
+      "websockets": false,
+      "dnsResolver": "127.0.0.11"
+    },
+    {
+      "domain": "api-qa.goprimetechnologies.com",
+      "email": "info@goprimetechnologies.com",
+      "wwwSubdomain": false,
+      "testCert": false,
+      "rsaKeySize": 4096,
+      "requestHandler": "reverseProxy",
+      "upstream": "opev-web:8080",
+      "websockets": false,
+      "dnsResolver": "127.0.0.11"
+    }
+  ],
+  "dhparamsSize": 2048,
+  "gzip": true
+}

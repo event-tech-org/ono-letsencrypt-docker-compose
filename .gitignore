@@ -1,4 +1,4 @@
-config.json
+# config.json
 html/
 # nginx-conf/
 !nginx-conf/conf.d/upstreams.conf
